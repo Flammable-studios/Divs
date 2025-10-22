@@ -8,27 +8,54 @@ body {
 }
 
 h2 {
-    margin-left: 150px;   /*  <-- old way */
     padding: 5px;
 }
 
 p {
-    margin-left: 150px;   /*  <-- old way */
     padding: 5px;
 }
 
 img {
-    float: left;          /*  <-- old way */
-    width: 100px;
     padding: 10px;
-    margin:5px;
+    margin: 5px;
+}
+
+.ghost {
+    display: flex;
 }
 
 .blinky {
     border: solid 3px;
     border-radius: 10px;
-    border-color: red;  
+    border-color: red;
     color: white;
     font-family: cursive;
-    background-color: black;   
+    background-color: black;
+}
+
+.inky {
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: aqua;
+    color: white;
+    font-family: cursive;
+    background-color: black;
+}
+
+.pinky {
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: rgb(255, 84, 154);
+    color: white;
+    font-family: cursive;
+    background-color: black;
+}
+
+.clyde {
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: rgb(255, 129, 0);
+    color: white;
+    font-family: cursive;
+    background-color: black;
 }
