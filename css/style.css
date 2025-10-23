@@ -4,7 +4,11 @@ html {
 }
 
 body {
-    background: lightgrey;
+    background-image: url("../img/pacmanboard.png");
+}
+
+h1, h3, cite {
+    color: white;
 }
 
 h2 {
@@ -13,6 +17,7 @@ h2 {
 
 p {
     padding: 5px;
+    color: white;
 }
 
 img {
@@ -22,6 +27,11 @@ img {
 
 .ghost {
     display: flex;
+    border: solid 3px;
+    border-radius: 10px;
+    color: white;
+    font-family: cursive;
+    background-color: black;
 }
 
 .blinky {
